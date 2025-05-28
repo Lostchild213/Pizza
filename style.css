@@ -1,0 +1,100 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.pizzahead {
+background: url('images/headimg.png');
+height: 800px;
+  padding: 100px 20px;
+  text-align: center;
+  color: #D67E35;
+}
+
+
+.pizzaheader {
+  margin-bottom: 60px;
+}
+
+.welcome {
+  font-size: 40px;
+  font-family: 'Tinos', serif;
+  margin-bottom: 10px;
+}
+
+.welcome2 {
+  font-size: 70px;
+  font-family: 'Tinos', serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.menu.button {
+  background-color: #FF7400;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.menu.button:hover {
+  background-color: #ff6f00;
+}
+
+
+.advanteges {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.advantage3 {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 300px;
+  text-align: center;
+}
+.advantage1 {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 300px;
+  text-align: center;
+}
+.advantage2 {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 300px;
+  text-align: center;
+}
+
+.advanteges h3 {
+  font-size: 24px;
+  color: #D67E35;
+  margin-bottom: 10px;
+}
+
+.advanteges p {
+  font-size: 16px;
+  color: #555;
+}
