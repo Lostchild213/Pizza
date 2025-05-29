@@ -100,6 +100,7 @@ height: 800px;
 }
 
 .hystory {
+  color: black;
     text-align: center;
     font-size: 40px;
     font-family: 'Tinos';
@@ -124,4 +125,36 @@ height: 800px;
   font-size: 10px;
   color: red;
   padding-top: 0px;
+}
+
+
+.gallery{
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  padding-top:20px;
+
+}
+
+
+.gallerycount1 {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 100px;
+  color:rgb(224, 224, 55);
+  padding-top: 30px;;
+
+
+}
+
+.gallerycount2 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 13px;
+  color:black;
+
+
+
 }
