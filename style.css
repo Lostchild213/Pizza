@@ -59,7 +59,7 @@ height: 800px;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -103,7 +103,6 @@ height: 800px;
     text-align: center;
     font-size: 40px;
     font-family: 'Tinos';
-    font-style: normal;
     font-weight: 400;
     font-size: 54px;
     line-height: 62px;
@@ -111,10 +110,18 @@ height: 800px;
 .description {
     align-items: center;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     text-align: center;
     color: #656363;
+}
+.menu1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: red;
+  padding-top: 0px;
 }
