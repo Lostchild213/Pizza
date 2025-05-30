@@ -1,0 +1,78 @@
+.my-history-title {
+  font-family: 'Tinos', serif;
+  font-size: 48px;
+  text-align: center;
+  color: #c35d00;
+  margin-top: 50px;
+}
+
+.my-description {
+  max-width: 700px;
+  margin: 15px auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+}
+
+.my-gallery {
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.my-gallery-title {
+  font-size: 42px;
+  color: #c35d00;
+  margin-bottom: 30px;
+}
+
+.my-gallery-numbers {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  color: #d67e35;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.my-gallery-labels {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  font-size: 14px;
+  color: #333;
+  margin-top: 8px;
+}
+
+.my-feedback {
+  max-width: 700px;
+  margin: 60px auto 80px;
+  text-align: center;
+}
+
+.my-feedback h2 {
+  font-family: 'Tinos', serif;
+  font-size: 38px;
+  color: #c35d00;
+  margin-bottom: 30px;
+}
+
+.feedback-item {
+  background: #fff4e0;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #6a4a00;
+  box-shadow: 0 3px 8px rgba(195, 93, 0, 0.3);
+}
+
+.feedback-item span {
+  display: block;
+  margin-top: 12px;
+  font-weight: 700;
+  color: #a05200;
+  font-style: normal;
+}
