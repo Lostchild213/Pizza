@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +12,9 @@ body {
 }
 
 
-.pizzahead {
-background: url('images/headimg.png');
-height: 800px;
+.menunavigation {
+  background: url('images/headimg.png');
+  height: 800px;
   padding: 100px 20px;
   text-align: center;
   color: #D67E35;
@@ -26,14 +25,13 @@ height: 800px;
   margin-bottom: 60px;
 }
 
-.welcome {
-  font-size: 40px;
-  font-family: 'Tinos', serif;
-  margin-bottom: 10px;
+.welcome{
+  margin-top: -700px;
+  text-align:center ;
 }
 
-.welcome2 {
-  font-size: 70px;
+.welcome1 {
+  font-size: 40px;
   font-family: 'Tinos', serif;
   font-weight: bold;
   margin-bottom: 30px;
@@ -53,7 +51,6 @@ height: 800px;
   background-color: #ff6f00;
 }
 
-
 .advanteges {
   display: flex;
   justify-content: space-around;
@@ -65,23 +62,24 @@ height: 800px;
 
 .advantage3 {
   background: #fff;
-  border-radius: 10px;
+
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   padding: 25px;
   width: 300px;
   text-align: center;
 }
+
 .advantage1 {
   background: #fff;
-  border-radius: 10px;
+
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   padding: 25px;
   width: 300px;
   text-align: center;
 }
+
 .advantage2 {
   background: #fff;
-  border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   padding: 25px;
   width: 300px;
@@ -100,23 +98,26 @@ height: 800px;
 }
 
 .hystory {
+  margin-top:90px;
   color: black;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Tinos';
-    font-weight: 400;
-    font-size: 54px;
-    line-height: 62px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Tinos';
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
 }
+
 .description {
-    align-items: center;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    color: #656363;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #656363;
 }
+
 .menu1 {
   display: flex;
   justify-content: center;
@@ -156,5 +157,46 @@ height: 800px;
   color:black;
 
 
+
+}
+
+
+.navigation{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -70px;
+    color:red;
+    font-size:20px;
+    gap: 30px;
+  }
+    .bron {
+      background-color: #FF7400;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 13px;
+      border: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+      
+  
+    }
+
+.menu_button{
+    background-color: #FF7400;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    margin-bottom: 70px;
+  
+
+}
+
+
+.our_hystory{
+  
 
 }
