@@ -10,7 +10,10 @@ body {
   color: #333;
   line-height: 1.6;
 }
-
+a{
+color: rgb(255, 0, 0);
+  text-decoration: none;
+}
 
 .menunavigation {
   background: url('images/headimg.png');
