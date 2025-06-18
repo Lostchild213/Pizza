@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Tinos', serif;
+  font-weight: bold;
 }
 
 body {
@@ -10,10 +12,7 @@ body {
   color: #333;
   line-height: 1.6;
 }
-a{
-color: rgb(255, 0, 0);
-  text-decoration: none;
-}
+
 
 .menunavigation {
   background: url('images/headimg.png');
@@ -38,6 +37,8 @@ color: rgb(255, 0, 0);
   font-family: 'Tinos', serif;
   font-weight: bold;
   margin-bottom: 30px;
+  color:#D67E35;
+
 }
 
 .menu.button {
@@ -169,24 +170,28 @@ color: rgb(255, 0, 0);
     flex-direction: row;
     justify-content: center;
     margin-top: -70px;
-    color:red;
-    font-size:20px;
-    gap: 30px;
-  }
+    color: red;
+      font-size: 20px;
+      gap: 30px;
+    }
+    
     .bron {
       background-color: #FF7400;
       color: #fff;
       padding: 15px 30px;
       font-size: 13px;
       border: none;
-      border-radius: 8px;
       transition: background 0.3s ease;
-      
-  
+      position: absolute;
+      width: 203px;
+      height: 48px;
+      left: 1500px;
+      top: 30px;
+    
     }
-
-.menu_button{
-    background-color: #FF7400;
+    
+    .menu_button {
+      background-color: #FF7400;
     color: #fff;
     padding: 15px 30px;
     font-size: 18px;
@@ -198,8 +203,198 @@ color: rgb(255, 0, 0);
 
 }
 
+.ad{
 
-.our_hystory{
+width: 594px;
+  height: 120px;
+  left: 176px;
+  top: 2579px;
+
+}
+
+
+.add {
+  background-image: url(images/bg.png);
+  height: 450px;
+}
+
+.ad {
+
+  width: 567px;
+  height: 173px;
+  left: 176px;
+  top: 1350px;
+  color: #D67E34;
+  font-size: 30px;
+}
+
+
+.adh1 {
+  color: #fff;
+  font-size: 20px;
+}
+.menutitle {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+
+.menu_img{
+  display: flex;
+  justify-content: center;
+}
+
+.ourmenu{
+  padding: 50px;
+}
+
+.our_menu{
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
   
+}
 
+.menu_image{
+  margin-left: 1px;
+}
+
+.our-menu{
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin-top:1px;
+  margin-bottom: 100px;
+}
+
+.burgers{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.menuwelcome{
+  text-align: center;
+  font-size: 50px;
+  color:white
+}
+
+.menuviev{
+  background: url(images/barimg.png);
+}
+
+
+.burgercard{
+  width: 350px;
+  height: 510px;
+    background: white;
+    box-shadow: 0 4px 15px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.burgerorder{
+  background-color: #D67E35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.burgertitle{
+  font-size: 30px;
+}
+
+.burgerdesc{
+  font-size:20px;
+}
+
+.burgerorder{
+  width:220px;
+  height:50px ;
+  font-size: 30px;
+  margin-top: 60px;
+  padding-bottom: 45px;
+}
+
+.burgersmenu{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+
+  .burgercard1 {
+    width: 350px;
+    height: 510px;
+    background: white;
+    box-shadow: 0 4px 15px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .burgerorder1 {
+    background-color: #D67E35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 220px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 60px;
+    padding-bottom: 45px;
+    margin-bottom:100px;
+  }
+
+
+.burgertitle1{
+  font-size: 30px;
+}
+
+.burgerdesc1{
+  font-size: 20px;;
+}
+
+
+.foodgallerynewtitle{
+  font-size: 54px;
+  text-align: center;
+}
+
+
+.foodgallerynewimg{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top:50px;
+}
+
+
+.ourkuhari{
+  font-size: 54px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.our_kuhari{
+  display: flex;
+  justify-content: center;
+  gap:100px
+}
+
+.final{
+  width: 100%;
 }
