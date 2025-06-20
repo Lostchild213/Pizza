@@ -5,6 +5,9 @@
   font-family: 'Tinos', serif;
   font-weight: bold;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Arial', sans-serif;
@@ -41,18 +44,12 @@ body {
 
 }
 
-.menu.button {
+.menu_button {
   background-color: #FF7400;
   color: #fff;
   padding: 15px 30px;
   font-size: 18px;
-  border: none;
-  border-radius: 8px;
-  transition: background 0.3s ease;
-}
-
-.menu.button:hover {
-  background-color: #ff6f00;
+  
 }
 
 .advanteges {
@@ -395,6 +392,17 @@ width: 594px;
   gap:100px
 }
 
-.final{
+.footer{
   width: 100%;
+  margin-top:100px
+}
+
+a{
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+.menuviev button:hover {
+  transition:0.4s ease-in-out;
+  transform: scale(0.9);
+
 }
