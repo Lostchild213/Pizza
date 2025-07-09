@@ -254,6 +254,16 @@ width: 594px;
   gap: 30px;
 }
 
+.burger_medium img{
+  height:145px;
+  width: 160px;
+}
+
+.burger_big img{
+  height:145px;
+  width: 160px;
+}
+
 .menuwelcome{
   text-align: center;
   font-size: 50px;
@@ -285,20 +295,30 @@ width: 594px;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
+.burgerimg img{
+  width: 220px;
+  height: 220px;
+}
+
+.burgerimg1 img{
+  width: 220px;
+  height: 225px;
+}
+
 
 .burgertitle{
   font-size: 30px;
 }
 
 .burgerdesc{
-  font-size:20px;
+  font-size:20px;;
 }
 
 .burgerorder{
   width:220px;
   height:50px ;
   font-size: 30px;
-  margin-top: 60px;
+  margin-top: 5px;
   padding-bottom: 45px;
 }
 
@@ -331,10 +351,37 @@ width: 594px;
     width: 220px;
     height: 50px;
     font-size: 30px;
-    margin-top: 60px;
+    margin-top: 5px;
     padding-bottom: 45px;
     margin-bottom:100px;
   }
+
+.salamiorder{
+  background-color: #D67E35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 220px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 5px;
+    padding-bottom: 45px;
+    margin-bottom:100px;
+}
+
+
+.pizza_salami{
+  width: 350px;
+    height: 510px;
+    background: white;
+    box-shadow: 0 4px 15px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
 
 
 .burgertitle1{
@@ -355,8 +402,11 @@ width: 594px;
 .foodgallerynewimg{
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 150px;
   margin-top:50px;
+  width: 220px;
+  height: 400px;
+  margin-left:850px;
 }
 
 
@@ -395,65 +445,6 @@ a{
 
 }
 
-
-@media (max-width: 768px) {
-  .welcome1 h2, .welcome1 h1 {
-    font-size: 24px;
-  }
-
-  .menu_button {
-    margin: 20px auto;
-    display: block;
-  }
-
-  .menu_image img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .burgermini img, .burger_medium img, .burger_big img {
-    width: 100%;
-    height: auto;
-  }
-
-  .burger_mini, .burger_mini1 {
-    padding: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  .advanteges {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-
-  .advantage1, .advantage2, .advantage3 {
-    width: 90%;
-  }
-
-  .welcome1 h1, .welcome1 h2 {
-    font-size: 28px;
-    text-align: center;
-  }
-}
-
-
-
-@media (max-width: 480px) {
-  .advantage1, .advantage2, .advantage3 {
-    width: 100%;
-    padding: 20px 15px;
-  }
-
-  .advanteges h3 {
-    font-size: 20px;
-  }
-
-  .advanteges p {
-    font-size: 14px;
-  }
-}
 .my-footer {
   background-color: #f5f5f5;
   color: #333;
@@ -516,4 +507,51 @@ a{
   color: #777;
   border-top: 1px solid #ddd;
   padding-top: 10px;
+}
+
+
+.gavaiskapizza, .peperonicard {
+  width: 350px;
+  height: 510px;
+  background: white;
+  box-shadow: 0 4px 15px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.gavaiskaimg img,
+.peperoniimg img {
+  width: 250px;
+  height: 300px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.burgerprice, .gavaiskaprice, .peperoniprice {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.gavaiska_title, .peperonititle {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.gavaiskadesc, .peperonidesc {
+  font-size: 20px;
+  padding: 0 10px;
+  color: #333;
+}
+
+.gavaiskaorder, .peperoniorder {
+  background-color: #D67E35;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 30px;
+  width: 220px;
+  height: 50px;
+  margin-top:30px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
 }
