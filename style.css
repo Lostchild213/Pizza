@@ -509,49 +509,136 @@ a{
   padding-top: 10px;
 }
 
+.allpizzas{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
 
-.gavaiskapizza, .peperonicard {
-  width: 350px;
-  height: 510px;
+
+.pizzacard{
+   width: 300px;
   background: white;
-  box-shadow: 0 4px 15px;
-  margin: 40px auto;
   text-align: center;
-  padding: 20px;
-  position: relative;
+  transition: transform 0.3s ease;
 }
 
-.gavaiskaimg img,
-.peperoniimg img {
-  width: 250px;
-  height: 300px;
-  max-height: 200px;
-  object-fit: cover;
+.pizzacard img{
+   width: 80%;
+  height: 160px;
+  margin-bottom: 30px;
 }
 
-.burgerprice, .gavaiskaprice, .peperoniprice {
-  font-size: 24px;
-  margin-top: 10px;
-}
-
-.gavaiska_title, .peperonititle {
-  font-size: 30px;
-  margin: 10px 0;
-}
-.gavaiskadesc, .peperonidesc {
-  font-size: 20px;
-  padding: 0 10px;
-  color: #333;
-}
-
-.gavaiskaorder, .peperoniorder {
-  background-color: #D67E35;
-  color: white;
+.orderbtn{
+  background-color: #FF7400;
+  color: #fff;
   border: none;
-  padding: 10px 20px;
-  font-size: 30px;
-  width: 220px;
-  height: 50px;
-  margin-top:30px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+  padding: 12px 20px;
+  font-size: 18px;
+  margin-bottom:-300px;
+  margin-top: 20px;
+  border-radius: 5px;
+  
+  
 }
+
+.orderbtn:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+
+.drinks-salads {
+  padding: 50px 20px;
+  background-color: #fff5ec;
+  background: url(images/barimg.png);
+
+}
+
+.section-title {
+  text-align: center;
+  font-size: 48px;
+  color:white;
+  margin: 40px 0 20px;
+  font-family: 'Tinos', serif;
+}
+
+.cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.item-card {
+  width: 300px;
+  background: white;
+    box-shadow: 0 4px 15px;
+  box-shadow: none;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+
+
+.item-card:hover {
+  transform: scale(1.03);
+}
+
+.item-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.item-card h3 {
+  font-size: 24px;
+  color: #D67E35;
+  margin-bottom: 10px;
+}
+
+.item-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.item-price {
+  display: block;
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.order-button {
+  background-color: #FF7400;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #e96300;
+}
+
+
+.pizzas{
+  background: url(images/barimg.png);
+}
+
+.menumaintitle{
+  text-align: center;
+  color:white;
+  font-size: 50px;
+  
+}
+
