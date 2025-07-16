@@ -45,13 +45,6 @@ body {
 
 }
 
-.menu_button {
-  background-color: #FF7400;
-  color: #fff;
-  padding: 15px 30px;
-  font-size: 18px;
-  
-}
 
 .advanteges {
   display: flex;
@@ -419,13 +412,16 @@ width: 594px;
 .our_kuhari{
   display: flex;
   justify-content: center;
-  gap:100px
+  height: 550px;
+  gap:60px;
+  margin-left: 250px
+  
 }
 
 .our_kuharidesc{
   display: flex;
   justify-content: center;
-  gap:250px
+  gap:350px
   
 }
 
@@ -641,4 +637,3 @@ a{
   font-size: 50px;
   
 }
-
